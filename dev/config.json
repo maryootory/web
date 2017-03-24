@@ -1,0 +1,36 @@
+{
+  "name": "web-mary",
+  "description": "Dev for mary's web",
+  "server": {
+    "proxy": "http://mary-web.dev",
+    "baseDir": "../"
+  },
+  "html": {
+    "src": [
+      "../**/*.html"
+    ]
+  },
+  "css": {
+    "file": "styles.scss",
+    "src": [
+      "src/scss/**/*.scss"
+    ],
+    "dest": "../css",
+    "includePaths": [
+      "node_modules/foundation-sites/scss"
+    ],
+    "includePathsInfo": "includePaths hace referencia a las rutas de las librerias externas"
+  },
+  "js": {
+    "file": "scripts.js",
+    "src": [
+      "src/js/**/*.js"
+    ]
+  },
+  "images": {
+    "src": [
+      "src/images/**/*"
+    ],
+    "dest": "../images/"
+  }
+}

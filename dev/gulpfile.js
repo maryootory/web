@@ -14,6 +14,7 @@ var autoprefix = require('gulp-autoprefixer');
 var glob = require('gulp-sass-glob');
 var uglify = require('gulp-uglify');
 var concat = require('gulp-concat');
+var babel = require('gulp-babel');
 var rename = require('gulp-rename');
 var cssclean = require('gulp-clean-css');
 var sourcemaps = require('gulp-sourcemaps');
@@ -46,26 +47,33 @@ gulp.task('css', function() {
 
 //JS - Vendor JS
 //Execute after including new js libraries: gulp vendorjs
-var vendorLisJs = []
+var vendorLisJs = [
+  "node_modules/foundation-sites/vendor/jquery/dist/jquery.min.js",
+  "node_modules/foundation-sites/dist/js/foundation.min.js"
+];
 gulp.task('vendorjs', function() {
-    return gulp.src(vendorLisJs)
-        .pipe(concat('vendor-scripts.js'))
-        .pipe(gulp.dest('assets/js'))
-        .pipe(rename('vendor-scripts.min.js'))
-        .pipe(uglify())
-        .pipe(gulp.dest('assets/js'));
+  return gulp.src(vendorLisJs)
+    .pipe(babel({
+      presets: ['es2015']
+    }))
+    // .pipe(concat('vendor-scripts.js'))
+    .pipe(concat('vendor-scripts.min.js'))
+    .pipe(gulp.dest('../js'))
+    .pipe(rename('vendor-scripts.min.js'))
+    .pipe(uglify())
+    .pipe(gulp.dest('../js'));
 });
 
 //CSS - Vendor CCS
 //Execute after including new js libraries: gulp vendorcss
-var vendorListCss = []
+var vendorListCss = [];
 gulp.task('vendorcss', function() {
   return gulp.src(vendorListCss)
     .pipe(concat('vendor-styles.css'))
-    .pipe(gulp.dest('assets/css'))
+    .pipe(gulp.dest('../css'))
     .pipe(rename('vendor-styles.min.css'))
     //.pipe(cssclean())
-    .pipe(gulp.dest('assets/css'));
+    .pipe(gulp.dest('../css'));
 });
 
 // Compress images.
@@ -74,7 +82,8 @@ gulp.task('images', function () {
     .pipe(imagemin({
       progressive: true,
       svgoPlugins: [{ removeViewBox: false }],
-      use: [pngcrush()]
+      use: [pngcrush()],
+      optimizationLevel: 5
     }))
     .pipe(gulp.dest(config.images.dest));
 });
@@ -83,7 +92,7 @@ gulp.task('images', function () {
 gulp.task('watch', function() {
   gulp.watch(config.css.src, ['css']);
   gulp.watch(config.images.src, ['images']);
-  gulp.watch(config.html.src);
+  gulp.watch(config.html.src, ['css']);
 });
 
 // Static Server + Watch

@@ -1,11 +1,8 @@
-@import 'foundation';
-
 @import 'config/settings';
+@import 'foundation';
 
 @include foundation-global-styles;
 @include foundation-grid;
-@include foundation-flex-grid;
-@include foundation-flex-classes;
 @include foundation-typography;
 @include foundation-forms;
 @include foundation-button;
@@ -41,3 +38,5 @@
 @include foundation-top-bar;
 @include foundation-visibility-classes;
 @include foundation-float-classes;
+
+@import 'custom/custom';

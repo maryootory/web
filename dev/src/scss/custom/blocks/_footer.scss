@@ -19,7 +19,7 @@
       &.issuu {
         a {
           background: url('../images/issuu.svg') no-repeat center;
-          background-size: contain;;
+          background-size: contain;
 
           &:hover { background: url('../images/issuu-hover.svg') no-repeat center; }
         }
@@ -28,7 +28,7 @@
       &.vimeo {
         a {
           background: url('../images/vimeo.svg') no-repeat center;
-          background-size: contain;;
+          background-size: contain;
 
           &:hover { background: url('../images/vimeo-hover.svg') no-repeat center; }
         }
@@ -37,7 +37,7 @@
       &.instagram {
         a {
           background: url('../images/instagram.svg') no-repeat center;
-          background-size: contain;;
+          background-size: contain;
 
           &:hover { background: url('../images/instagram-hover.svg') no-repeat center; }
         }
@@ -53,7 +53,7 @@
       font-size: .9em;
       line-height: 1.2;
 
-      a { display: inline-block; }
+      a { display: block; }
     }
   }
 

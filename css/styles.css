@@ -1742,9 +1742,35 @@ a.thumbnail image { box-shadow: none; }
 
 .content { margin-bottom: 20px; }
 
+.content .bienvenida { margin-bottom: 20px; }
+
 .content .bienvenida .title { color: #0773A3; font-weight: 600; font-size: 6em; }
 
 .content .bienvenida .saludo p { margin-bottom: 0; font-size: .9em; }
+
+.content .programas .programa { margin-bottom: 10px; height: 105px; border-radius: 50%; background-color: #0773A3 !important; background-size: contain; color: transparent; }
+
+.content .programas .programa.ai { background: url("../images/ai.svg") no-repeat center; }
+
+.content .programas .programa.ps { background: url("../images/ps.svg") no-repeat center; }
+
+.content .programas .programa.id { background: url("../images/id.svg") no-repeat center; }
+
+.content .programas .programa.fl { background: url("../images/fl.svg") no-repeat center; }
+
+.content .programas .programa.dw { background: url("../images/dw.svg") no-repeat center; }
+
+.content .programas .programa.css3 { background: url("../images/css3.svg") no-repeat center; }
+
+.content .programas .programa.html5 { background: url("../images/html5.svg") no-repeat center; }
+
+.content .programas .programa.fw { background: url("../images/fw.svg") no-repeat center; }
+
+.content .programas .programa.ae { background: url("../images/ae.svg") no-repeat center; }
+
+.content .programas .programa.pr { background: url("../images/pr.svg") no-repeat center; }
+
+.content .programas .programa:nth-child(9), .content .programas .programa:last-child { margin-bottom: 0; }
 
 .footer { padding-bottom: 15px; background-color: #0773A3; color: #fefefe; }
 
@@ -1770,7 +1796,7 @@ a.thumbnail image { box-shadow: none; }
 
 .footer .info p { margin-bottom: 0; font-size: .9em; line-height: 1.2; }
 
-.footer .info p a { display: inline-block; }
+.footer .info p a { display: block; }
 
 .footer .copy p { margin-bottom: 0; font-size: .9em; }
 

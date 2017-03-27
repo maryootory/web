@@ -2,6 +2,8 @@
   margin-bottom: 20px;
 
   .bienvenida {
+    margin-bottom: 20px;
+
     .title {
       color: $secondary-color;
       font-weight: 600;
@@ -11,6 +13,31 @@
     .saludo p {
       margin-bottom: 0;
       font-size: .9em;
+    }
+  }
+
+  .programas {
+    .programa {
+      margin-bottom: 10px;
+      height: 105px;
+      border-radius: 50%;
+      background-color: $secondary-color !important;
+      background-size: contain;
+      color: transparent;
+
+      &.ai { background: url('../images/ai.svg') no-repeat center; }
+      &.ps { background: url('../images/ps.svg') no-repeat center; }
+      &.id { background: url('../images/id.svg') no-repeat center; }
+      &.fl { background: url('../images/fl.svg') no-repeat center; }
+      &.dw { background: url('../images/dw.svg') no-repeat center; }
+      &.css3 { background: url('../images/css3.svg') no-repeat center; }
+      &.html5 { background: url('../images/html5.svg') no-repeat center; }
+      &.fw { background: url('../images/fw.svg') no-repeat center; }
+      &.ae { background: url('../images/ae.svg') no-repeat center; }
+      &.pr { background: url('../images/pr.svg') no-repeat center; }
+
+      &:nth-child(9),
+      &:last-child { margin-bottom: 0; }
     }
   }
 }

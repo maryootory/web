@@ -1,5 +1,10 @@
+@import "settings";
 @import 'layout';
 
+@import 'blocks/menu-off-canvas';
 @import 'blocks/header';
 @import 'blocks/content';
+@import "blocks/block-footer";
 @import 'blocks/footer';
+
+@import "responsive/mobile";

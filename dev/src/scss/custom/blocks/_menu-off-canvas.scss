@@ -1,0 +1,34 @@
+.menu-off-canvas {
+  .menu {
+    li {
+      display: block;
+
+      a {
+        padding-left: 16.66666%;
+        outline: none;
+        color: $body-font-color;
+        font-size: 1em;
+        font-family: 'Muli-Regular';
+        transition: all .3s;
+
+        &:hover,
+        &:active {
+          background-color: $light-blue;
+          color: $blue-color;
+          font-family: 'Muli-Bold';
+        }
+      }
+    }
+  }
+
+  .footer-menu {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+
+    &, a { color: $body-font-color; }
+
+    .redes,
+    .info { margin-bottom: 10px; }
+  }
+}

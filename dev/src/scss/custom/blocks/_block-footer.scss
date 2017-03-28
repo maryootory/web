@@ -1,0 +1,65 @@
+.block-footer {
+  padding-bottom: 15px;
+  color: $secondary-color;
+
+  a { color: $secondary-color; }
+
+  .redes {
+    margin-bottom: 20px;
+
+    .red {
+      a {
+        display: inline-block;
+        width: 100%;
+        height: 40px;
+        text-indent: -9999px;
+      }
+
+      &.issuu {
+        a {
+          background: url('../images/issuu.svg') no-repeat center;
+          background-size: contain;
+
+          &:hover { background: url('../images/issuu-hover.svg') no-repeat center; }
+        }
+      }
+
+      &.vimeo {
+        a {
+          background: url('../images/vimeo.svg') no-repeat center;
+          background-size: contain;
+
+          &:hover { background: url('../images/vimeo-hover.svg') no-repeat center; }
+        }
+      }
+
+      &.instagram {
+        a {
+          background: url('../images/instagram.svg') no-repeat center;
+          background-size: contain;
+
+          &:hover { background: url('../images/instagram-hover.svg') no-repeat center; }
+        }
+      }
+    }
+  }
+
+  .info {
+    margin-bottom: 20px;
+
+    p {
+      margin-bottom: 0;
+      font-size: .9em;
+      line-height: 1.2;
+
+      a { display: block; }
+    }
+  }
+
+  .copy {
+    p {
+      margin-bottom: 0;
+      font-size: .9em;
+    }
+  }
+}

@@ -1,0 +1,5 @@
+$offcanvas-size: 66.66667%;
+
+@include breakpoint(small only) {
+  .position-right { width: $offcanvas-size; }
+}

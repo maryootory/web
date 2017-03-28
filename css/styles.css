@@ -1734,6 +1734,18 @@ a.thumbnail image { box-shadow: none; }
 
 @font-face { font-family: 'PaytoneOne'; src: url("../fonts/PaytoneOne.ttf"); }
 
+.menu-off-canvas .menu li { display: block; }
+
+.menu-off-canvas .menu li a { padding-left: 16.66666%; outline: none; color: #666666; font-size: 1em; font-family: 'Muli-Regular'; transition: all .3s; }
+
+.menu-off-canvas .menu li a:hover, .menu-off-canvas .menu li a:active { background-color: #cbeefb; color: #29abe2; font-family: 'Muli-Bold'; }
+
+.menu-off-canvas .footer-menu { position: absolute; bottom: 0; width: 100%; }
+
+.menu-off-canvas .footer-menu, .menu-off-canvas .footer-menu a { color: #666666; }
+
+.menu-off-canvas .footer-menu .redes, .menu-off-canvas .footer-menu .info { margin-bottom: 10px; }
+
 .header .nav-bar { margin-bottom: 20px; padding: 19px 0; background-color: #004674; }
 
 .header .nav-bar .title { color: #fefefe; }
@@ -1784,32 +1796,34 @@ a.thumbnail image { box-shadow: none; }
 
 .content .programas .programa:nth-child(9), .content .programas .programa:last-child { margin-bottom: 0; }
 
-.footer { padding-bottom: 15px; color: #0773A3; }
+.block-footer { padding-bottom: 15px; color: #0773A3; }
 
-.footer a { color: #0773A3; }
+.block-footer a { color: #0773A3; }
 
-.footer .redes { margin-bottom: 20px; }
+.block-footer .redes { margin-bottom: 20px; }
 
-.footer .redes .red a { display: inline-block; width: 100%; height: 40px; text-indent: -9999px; }
+.block-footer .redes .red a { display: inline-block; width: 100%; height: 40px; text-indent: -9999px; }
 
-.footer .redes .red.issuu a { background: url("../images/issuu.svg") no-repeat center; background-size: contain; }
+.block-footer .redes .red.issuu a { background: url("../images/issuu.svg") no-repeat center; background-size: contain; }
 
-.footer .redes .red.issuu a:hover { background: url("../images/issuu-hover.svg") no-repeat center; }
+.block-footer .redes .red.issuu a:hover { background: url("../images/issuu-hover.svg") no-repeat center; }
 
-.footer .redes .red.vimeo a { background: url("../images/vimeo.svg") no-repeat center; background-size: contain; }
+.block-footer .redes .red.vimeo a { background: url("../images/vimeo.svg") no-repeat center; background-size: contain; }
 
-.footer .redes .red.vimeo a:hover { background: url("../images/vimeo-hover.svg") no-repeat center; }
+.block-footer .redes .red.vimeo a:hover { background: url("../images/vimeo-hover.svg") no-repeat center; }
 
-.footer .redes .red.instagram a { background: url("../images/instagram.svg") no-repeat center; background-size: contain; }
+.block-footer .redes .red.instagram a { background: url("../images/instagram.svg") no-repeat center; background-size: contain; }
 
-.footer .redes .red.instagram a:hover { background: url("../images/instagram-hover.svg") no-repeat center; }
+.block-footer .redes .red.instagram a:hover { background: url("../images/instagram-hover.svg") no-repeat center; }
 
-.footer .info { margin-bottom: 20px; }
+.block-footer .info { margin-bottom: 20px; }
 
-.footer .info p { margin-bottom: 0; font-size: .9em; line-height: 1.2; }
+.block-footer .info p { margin-bottom: 0; font-size: .9em; line-height: 1.2; }
 
-.footer .info p a { display: block; }
+.block-footer .info p a { display: block; }
 
-.footer .copy p { margin-bottom: 0; font-size: .9em; }
+.block-footer .copy p { margin-bottom: 0; font-size: .9em; }
+
+@media screen and (max-width: 39.9375em) { .position-right { width: 66.66667%; } }
 
 /*# sourceMappingURL=styles.css.map */

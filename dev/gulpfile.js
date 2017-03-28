@@ -48,8 +48,8 @@ gulp.task('css', function() {
 //JS - Vendor JS
 //Execute after including new js libraries: gulp vendorjs
 var vendorLisJs = [
-  "node_modules/foundation-sites/vendor/jquery/dist/jquery.min.js",
-  "node_modules/foundation-sites/dist/js/foundation.min.js"
+  "node_modules/foundation-sites/vendor/jquery/dist/jquery.js",
+  "node_modules/foundation-sites/dist/js/foundation.js"
 ];
 gulp.task('vendorjs', function() {
   return gulp.src(vendorLisJs)

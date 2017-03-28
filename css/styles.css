@@ -1744,9 +1744,9 @@ a.thumbnail image { box-shadow: none; }
 
 .header .nav-bar .menu-btn p { margin: 0; }
 
-.header .nav-bar .menu-btn p a { display: inline-block; margin: 0; width: 100%; height: 46px; background: url("../images/menu-btn.svg") no-repeat center; background-size: contain; text-indent: -9999px; }
+.header .nav-bar .menu-btn p span { display: inline-block; margin: 0; width: 100%; height: 46px; background: url("../images/menu-btn.svg") no-repeat center; background-size: contain; text-indent: -9999px; cursor: pointer; }
 
-.header .nav-bar .menu-btn p a:hover { background: url("../images/menu-btn-hover.svg") no-repeat center; }
+.header .nav-bar .menu-btn p span:hover { background: url("../images/menu-btn-hover.svg") no-repeat center; }
 
 .content { margin-bottom: 20px; }
 

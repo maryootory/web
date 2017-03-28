@@ -1,8 +1,7 @@
 .header {
-  margin-bottom: 20px;
-
   .nav-bar {
-    padding: 15px 0;
+    margin-bottom: 20px;
+    padding: 19px 0;
     background-color: $primary-color;
 
     .title {
@@ -10,10 +9,15 @@
 
       h1.title {
         margin-bottom: 0;
-        font-weight: 600;
+        font-size: 1.375em;
+        font-family: 'Muli-ExtraBold';
       }
 
-      .cargo { margin-top: -5px; }
+      .cargo {
+        margin-top: -5px;
+        font-size: 1.188em;
+        font-family: 'Muli-Light';
+      }
     }
 
     .menu-btn {
@@ -28,10 +32,12 @@
           background: url('../images/menu-btn.svg') no-repeat center;
           background-size: contain;
           text-indent: -9999px;
+
+          &:hover { background: url('../images/menu-btn-hover.svg') no-repeat center; }
         }
       }
     }
   }
 
-  .logo { margin-top: 20px; }
+
 }

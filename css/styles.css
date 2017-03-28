@@ -1724,31 +1724,43 @@ a.thumbnail image { box-shadow: none; }
 
 .clearfix::after { clear: both; }
 
-.header { margin-bottom: 20px; }
+@font-face { font-family: 'Muli-Bold'; src: url("../fonts/Muli-Bold.ttf"); }
 
-.header .nav-bar { padding: 15px 0; background-color: #004674; }
+@font-face { font-family: 'Muli-ExtraBold'; src: url("../fonts/Muli-ExtraBold.ttf"); }
+
+@font-face { font-family: 'Muli-Light'; src: url("../fonts/Muli-Light.ttf"); }
+
+@font-face { font-family: 'Muli-Regular'; src: url("../fonts/Muli-Regular.ttf"); }
+
+@font-face { font-family: 'PaytoneOne'; src: url("../fonts/PaytoneOne.ttf"); }
+
+.header .nav-bar { margin-bottom: 20px; padding: 19px 0; background-color: #004674; }
 
 .header .nav-bar .title { color: #fefefe; }
 
-.header .nav-bar .title h1.title { margin-bottom: 0; font-weight: 600; }
+.header .nav-bar .title h1.title { margin-bottom: 0; font-size: 1.375em; font-family: 'Muli-ExtraBold'; }
 
-.header .nav-bar .title .cargo { margin-top: -5px; }
+.header .nav-bar .title .cargo { margin-top: -5px; font-size: 1.188em; font-family: 'Muli-Light'; }
 
 .header .nav-bar .menu-btn p { margin: 0; }
 
 .header .nav-bar .menu-btn p a { display: inline-block; margin: 0; width: 100%; height: 46px; background: url("../images/menu-btn.svg") no-repeat center; background-size: contain; text-indent: -9999px; }
 
-.header .logo { margin-top: 20px; }
+.header .nav-bar .menu-btn p a:hover { background: url("../images/menu-btn-hover.svg") no-repeat center; }
 
 .content { margin-bottom: 20px; }
 
 .content .bienvenida { margin-bottom: 20px; }
 
-.content .bienvenida .title { color: #0773A3; font-weight: 600; font-size: 6em; }
+.content .bienvenida .title { color: #0773A3; font-size: 5.625em; font-family: 'PaytoneOne'; }
 
-.content .bienvenida .saludo p { margin-bottom: 0; font-size: .9em; }
+.content .bienvenida .saludo p { margin-bottom: 0; font-size: .875em; font-family: 'Muli-Regular'; }
 
-.content .programas .programa { margin-bottom: 10px; height: 105px; border-radius: 50%; background-color: #0773A3 !important; background-size: contain; color: transparent; }
+.content .programas { padding: 30px 0; background-color: #0773A3; }
+
+.content .programas .title h3 { margin-bottom: 20px; color: #fefefe; font-size: 2.438em; font-family: 'PaytoneOne'; }
+
+.content .programas .programa { margin-bottom: 15px; height: 105px; background-size: contain; color: transparent; }
 
 .content .programas .programa.ai { background: url("../images/ai.svg") no-repeat center; }
 
@@ -1772,9 +1784,9 @@ a.thumbnail image { box-shadow: none; }
 
 .content .programas .programa:nth-child(9), .content .programas .programa:last-child { margin-bottom: 0; }
 
-.footer { padding-bottom: 15px; background-color: #0773A3; color: #fefefe; }
+.footer { padding-bottom: 15px; color: #0773A3; }
 
-.footer a { color: #fefefe; }
+.footer a { color: #0773A3; }
 
 .footer .redes { margin-bottom: 20px; }
 

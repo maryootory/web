@@ -4,18 +4,18 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Mary Ootory</title>
-  <link rel="stylesheet" href="css/styles.css">
+  <title>Mary Ootory - Portafolio</title>
+  <link rel="stylesheet" href="../css/styles.css">
 </head>
-  <body>
+  <body class="contacto">
     <div class="off-canvas-wrapper">
       <div class="menu-off-canvas show-for-small-only off-canvas position-right" id="offCanvasRight" data-transition="overlap" data-off-canvas>
         <div class="menu-btn-cerrar" data-toggle="offCanvasRight">cerrar</div>
 
         <ul class="menu vertical">
-          <li><a href="index.html">Hola</a></li>
-          <li><a href="html/portafolio.html">Portafolio</a></li>
-          <li><a href="html/contacto.html">Contacto</a></li>
+          <li><a href="../index.html">Hola</a></li>
+          <li><a href="portafolio.html">Portafolio</a></li>
+          <li><a href="contacto.html">Contacto</a></li>
         </ul>
 
         <div class="footer-menu block-footer">
@@ -43,7 +43,10 @@
       <div class="off-canvas-content" data-off-canvas-content>
         <header class="row header">
           <div class="row column nav-bar top-bar">
-            <div class="small-offset-1 small-8 column title">
+            <div class="column small-3 logo">
+              <img src="../images/logo.svg" alt="">
+            </div>
+            <div class="small-7 column title">
               <h1 class="title">MARY OOTORY</h1>
               <div class="cargo">Diseñadora Gráfica</div>
             </div>
@@ -51,46 +54,24 @@
               <p><span data-toggle="offCanvasRight">menu</span></p>
             </div>
           </div>
-          <div class="small-centered small-6 logo">
-            <img src="images/logo.svg" alt="">
-          </div>
         </header>
 
         <section class="content">
-          <div class="bienvenida text-center small-centered small-10">
-            <h2 class="title">HOLA</h2>
-            <div class="saludo">
-              <p>Diseñadora gráfica, graduada de Unitec en el 2012. Tengo experiencia en el área de diseño desde el 2010 en editorial (diagramación), multimedia, artes gráficas, community manager, Web HTML5, CSS3, entre otros.</p>
-            </div>
-          </div>
-
-          <div class="row programas text-center small-12">
-            <div class="title small-centered small-10">
-              <h3>PROGRAMAS</h3>
-            </div>
-            <div class="ctn-programas">
-              <div class="programa ai column small-6">Ai</div>
-              <div class="programa ps column small-6">Ps</div>
-              <div class="programa id column small-6">Id</div>
-              <div class="programa fl column small-6">Fl</div>
-              <div class="programa dw column small-6">Dw</div>
-              <div class="programa css3 column small-6">Css3</div>
-              <div class="programa html5 column small-6">HTML5</div>
-              <div class="programa fw column small-6">Fw</div>
-              <div class="programa ae column small-6">Ae</div>
-              <div class="programa pr column small-6">Pr</div>
-            </div>
-          </div>
 
           <div class="frm-contacto row small-centered small-10">
             <form method="POST" action="http://formspree.io/maryootory@gmail.com">
-              <div>
+              <div class="row column">
+                <h2 class="text-center">CONTACTO</h2>
                 <h3 class="title text-center">Si quieres trabajar conmigo escríbeme</h3>
                 <div class="inputs-group">
                   <input type="hidden" name="_subject" value="Tienes un mensaje desde tu web." />
                   <input type="hidden" name="_next" value="/html/gracias.html" />
                   <input type="text" name="_gotcha" style="display:none" />
+                  <input type="text" name="nombre" placeholder="Nombre" required>
+                  <p class="help-text">Campo obligatorio</p>
                   <input type="email" name="email" placeholder="Correo" required>
+                  <p class="help-text">Campo obligatorio</p>
+                  <input type="text" name="telefono" placeholder="Telefono" required>
                   <p class="help-text">Campo obligatorio</p>
                   <textarea name="mensaje" cols="30" rows="7" placeholder="Mensaje" required></textarea>
                   <p class="help-text">Campo obligatorio</p>
@@ -99,6 +80,7 @@
               </div>
             </form>
           </div>
+
         </section>
 
         <footer class="footer block-footer">
@@ -124,7 +106,7 @@
       </div>
     </div>
 
-    <script type="text/javascript" src="js/vendor-scripts.min.js"></script>
-    <script type="text/javascript" src="js/scripts.js"></script>
+    <script type="text/javascript" src="../js/vendor-scripts.min.js"></script>
+    <script type="text/javascript" src="../js/scripts.js"></script>
   </body>
 </html>

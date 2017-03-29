@@ -48,15 +48,21 @@
   }
 
   .frm-contacto {
+    h2 {
+      font: 2.438em $paytone-one;
+      color: $secondary-color;
+    }
+
     h3.title {
       color: $blue-color;
-      text-align: center;
       font-size: .875em;
     }
 
     .inputs-group {
       input[type=text],
+      input[type=email],
       textarea {
+        margin-bottom: 10px;
         padding: .5rem 1.2rem;
         border-radius: 10px;
         background: $light-gray;
@@ -64,7 +70,10 @@
 
       textarea { resize: none}
 
-      .help-text { color: $body-font-color; }
+      .help-text {
+        margin-bottom: 10px;
+        color: $body-font-color;
+      }
 
       button[type=submit] {
         padding: 0.6em 1em;

@@ -1,5 +1,21 @@
 .menu-off-canvas {
+  .menu-btn-cerrar {
+    display: inline-block;
+    float: right;
+    margin: 0;
+    width: 20%;
+    height: 46px;
+    background: url('../images/menu-close.svg') no-repeat center;
+    background-size: contain;
+    text-indent: -9999px;
+    cursor: pointer;
+  }
+
   .menu {
+    position: absolute;
+    top: 7%;
+    width: 100%;
+
     li {
       display: block;
 

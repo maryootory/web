@@ -1734,6 +1734,10 @@ a.thumbnail image { box-shadow: none; }
 
 @font-face { font-family: 'PaytoneOne'; src: url("../fonts/PaytoneOne.ttf"); }
 
+.menu-off-canvas .menu-btn-cerrar { display: inline-block; float: right; margin: 0; width: 20%; height: 46px; background: url("../images/menu-close.svg") no-repeat center; background-size: contain; text-indent: -9999px; cursor: pointer; }
+
+.menu-off-canvas .menu { position: absolute; top: 7%; width: 100%; }
+
 .menu-off-canvas .menu li { display: block; }
 
 .menu-off-canvas .menu li a { padding-left: 16.66666%; outline: none; color: #666666; font-size: 1em; font-family: 'Muli-Regular'; transition: all .3s; }

@@ -49,8 +49,28 @@
 
   .frm-contacto {
     h3.title {
-      font-size: .875em;
       color: $blue-color;
+      text-align: center;
+      font-size: .875em;
+    }
+
+    .inputs-group {
+      input[type=text],
+      textarea {
+        padding: .5rem 1.2rem;
+        border-radius: 10px;
+        background: $light-gray;
+      }
+
+      textarea { resize: none}
+
+      .help-text { color: $body-font-color; }
+
+      button[type=button] {
+        padding: 0.6em 1em;
+        border-radius: 10px;
+        font: .875em $muli-bold;
+      }
     }
   }
 }

@@ -1808,7 +1808,7 @@ body { font: 100% Muli-Regular; }
 
 .content .frm-contacto .inputs-group .help-text { color: #666666; }
 
-.content .frm-contacto .inputs-group button[type=button] { padding: 0.6em 1em; border-radius: 10px; font: 0.875em Muli-Bold; }
+.content .frm-contacto .inputs-group button[type=submit] { padding: 0.6em 1em; border-radius: 10px; font: 0.875em Muli-Bold; }
 
 .block-footer { padding-bottom: 15px; }
 

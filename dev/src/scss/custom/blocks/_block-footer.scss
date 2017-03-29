@@ -1,8 +1,7 @@
 .block-footer {
   padding-bottom: 15px;
-  color: $secondary-color;
 
-  a { color: $secondary-color; }
+  &, a { color: $secondary-color; }
 
   .redes {
     margin-bottom: 20px;
@@ -17,28 +16,25 @@
 
       &.issuu {
         a {
-          background: url('../images/issuu.svg') no-repeat center;
-          background-size: contain;
+          background: url('../images/issuu.svg') no-repeat center/contain;
 
-          &:hover { background: url('../images/issuu-hover.svg') no-repeat center; }
+          &:hover { background: url('../images/issuu-hover.svg') no-repeat center/contain; }
         }
       }
 
       &.vimeo {
         a {
-          background: url('../images/vimeo.svg') no-repeat center;
-          background-size: contain;
+          background: url('../images/vimeo.svg') no-repeat center/contain;
 
-          &:hover { background: url('../images/vimeo-hover.svg') no-repeat center; }
+          &:hover { background: url('../images/vimeo-hover.svg') no-repeat center/contain; }
         }
       }
 
       &.instagram {
         a {
-          background: url('../images/instagram.svg') no-repeat center;
-          background-size: contain;
+          background: url('../images/instagram.svg') no-repeat center/contain;
 
-          &:hover { background: url('../images/instagram-hover.svg') no-repeat center; }
+          &:hover { background: url('../images/instagram-hover.svg') no-repeat center/contain; }
         }
       }
     }

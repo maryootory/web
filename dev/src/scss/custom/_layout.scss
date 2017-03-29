@@ -22,3 +22,5 @@
   font-family: 'PaytoneOne';
   src: url('../fonts/PaytoneOne.ttf');
 }
+
+body { font: $global-font-size $muli-regular }

@@ -5,8 +5,7 @@
     margin: 0;
     width: 20%;
     height: 46px;
-    background: url('../images/menu-close.svg') no-repeat center;
-    background-size: contain;
+    background: url('../images/menu-close.svg') no-repeat center/contain;
     text-indent: -9999px;
     cursor: pointer;
   }
@@ -17,21 +16,18 @@
     width: 100%;
 
     li {
-      display: block;
-
       a {
         padding-left: 16.66666%;
         outline: none;
         color: $body-font-color;
         font-size: 1em;
-        font-family: 'Muli-Regular';
         transition: all .3s;
 
         &:hover,
         &:active {
           background-color: $light-blue;
           color: $blue-color;
-          font-family: 'Muli-Bold';
+          font-family: $muli-bold;
         }
       }
     }

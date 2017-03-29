@@ -9,14 +9,12 @@
 
       h1.title {
         margin-bottom: 0;
-        font-size: 1.375em;
-        font-family: 'Muli-ExtraBold';
+        font: 1.375em $muli-extrabold;
       }
 
       .cargo {
         margin-top: -5px;
-        font-size: 1.188em;
-        font-family: 'Muli-Light';
+        font: 1.188em $muli-light;
       }
     }
 
@@ -29,16 +27,13 @@
           margin: 0;
           width: 100%;
           height: 46px;
-          background: url('../images/menu-btn.svg') no-repeat center;
-          background-size: contain;
+          background: url('../images/menu-btn.svg') no-repeat center/contain;
           text-indent: -9999px;
           cursor: pointer;
 
-          &:hover { background: url('../images/menu-btn-hover.svg') no-repeat center; }
+          &:hover { background: url('../images/menu-btn-hover.svg') no-repeat center/contain; }
         }
       }
     }
   }
-
-
 }

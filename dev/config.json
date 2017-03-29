@@ -7,7 +7,8 @@
   },
   "html": {
     "src": [
-      "../**/*.html"
+      "../*.html",
+      "../html/*.html"
     ]
   },
   "css": {

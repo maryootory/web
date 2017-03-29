@@ -1,6 +1,12 @@
 .contacto {
   .header .nav-bar {
-    .title { margin-top: 10px; }
+    .title {
+      margin-top: 10px;
+
+      h1.title { font-size: 1.125em; }
+
+      .cargo { font-size: 1em; }
+    }
 
     .menu-btn { margin-top: 10px; }
   }

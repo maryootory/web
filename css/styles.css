@@ -1754,9 +1754,9 @@ body { font: 100% Muli-Regular; }
 
 .header .nav-bar .title { color: #fefefe; }
 
-.header .nav-bar .title h1.title { margin-bottom: 0; font: 1.313em Muli-ExtraBold; }
+.header .nav-bar .title h1.title { margin-bottom: 0; font: 1.1375em Muli-ExtraBold; }
 
-.header .nav-bar .title .cargo { margin-top: -5px; font: 1.122em Muli-Light; }
+.header .nav-bar .title .cargo { margin-top: -5px; font: 1.188em Muli-Light; }
 
 .header .nav-bar .menu-btn p { margin: 0; }
 
@@ -1841,6 +1841,10 @@ body { font: 100% Muli-Regular; }
 .block-footer .copy p { margin-bottom: 0; font-size: .9em; }
 
 .contacto .header .nav-bar .title { margin-top: 10px; }
+
+.contacto .header .nav-bar .title h1.title { font-size: 1.125em; }
+
+.contacto .header .nav-bar .title .cargo { font-size: 1em; }
 
 .contacto .header .nav-bar .menu-btn { margin-top: 10px; }
 

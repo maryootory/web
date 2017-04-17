@@ -1738,7 +1738,7 @@ body { font: 100% Muli-Regular; }
 
 .menu-off-canvas .menu-btn-cerrar { display: inline-block; float: right; margin: 0; width: 20%; height: 46px; background: url("../images/menu-close.svg") no-repeat center/contain; text-indent: -9999px; cursor: pointer; }
 
-.menu-off-canvas .menu { position: absolute; top: 7%; width: 100%; }
+.menu-off-canvas .menu { position: absolute; top: 50px; width: 100%; }
 
 .menu-off-canvas .menu li a { padding-left: 16.66666%; outline: none; color: #666666; font-size: 1em; transition: all .3s; }
 
@@ -1850,7 +1850,14 @@ body { font: 100% Muli-Regular; }
 
 .gracias .header .nav-bar { margin-bottom: 0; }
 
-@media print, screen and (min-width: 40em) { .content .bienvenida .title { font-size: 6.625em; }
+@media print, screen and (min-width: 40em) { .header .nav-bar { padding: 10px 0; }
+  .header .nav-bar .title { margin-top: 10px; }
+  .header .nav-bar .title h1.title { font-size: 2em; }
+  .header .nav-bar .title .cargo { font-size: 1.7em; }
+  .header .nav-bar .menu-btn { margin-top: 30px; }
+  .content .bienvenida { margin-bottom: 70px; }
+  .content .bienvenida .title { font-size: 6.625em; }
+  .content .programas { padding-bottom: 45px; margin-bottom: 50px; }
   .content .programas .title h3 { font-size: 3em; } }
 
 /*# sourceMappingURL=styles.css.map */

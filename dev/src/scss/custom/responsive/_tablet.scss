@@ -1,0 +1,6 @@
+@include breakpoint(medium) {
+  .content {
+    .bienvenida .title { font-size: 6.625em; }
+    .programas .title h3 { font-size: 3em; }
+  }
+}

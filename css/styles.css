@@ -1850,4 +1850,7 @@ body { font: 100% Muli-Regular; }
 
 .gracias .header .nav-bar { margin-bottom: 0; }
 
+@media print, screen and (min-width: 40em) { .content .bienvenida .title { font-size: 6.625em; }
+  .content .programas .title h3 { font-size: 3em; } }
+
 /*# sourceMappingURL=styles.css.map */

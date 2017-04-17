@@ -1,6 +1,7 @@
 // Include gulp.
 var gulp = require('gulp');
 var browserSync = require('browser-sync').create();
+var reload      = browserSync.reload;
 var config = require('./config.json');
 
 // Include plugins.
@@ -92,7 +93,7 @@ gulp.task('images', function () {
 gulp.task('watch', function() {
   gulp.watch(config.css.src, ['css']);
   gulp.watch(config.images.src, ['images']);
-  gulp.watch(config.html.src, ['css']);
+  gulp.watch(config.html.src).on("change", reload);
 });
 
 // Static Server + Watch

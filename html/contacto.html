@@ -9,7 +9,7 @@
 </head>
   <body class="contacto">
     <div class="off-canvas-wrapper">
-      <div class="menu-off-canvas hide-for-medium off-canvas position-right" id="offCanvasRight" data-transition="overlap" data-off-canvas>
+      <div class="menu-off-canvas hide-for-large off-canvas position-right" id="offCanvasRight" data-transition="overlap" data-off-canvas>
         <div class="menu-btn-cerrar" data-toggle="offCanvasRight">cerrar</div>
 
         <ul class="menu vertical">
@@ -22,14 +22,14 @@
       <div class="off-canvas-content" data-off-canvas-content>
         <header class="row header">
           <div class="row column nav-bar top-bar">
-            <div class="column small-3 logo">
+            <div class="column small-3 medium-2 medium-push-1 logo">
               <img src="../images/logo.svg" alt="Mary Ootory" title="Mary Ootory">
             </div>
-            <div class="small-7 column title">
+            <div class="small-7 medium-5 medium-push-1 column title">
               <h1 class="title">MARY OOTORY</h1>
               <div class="cargo">Diseñadora Gráfica</div>
             </div>
-            <div class="hide-for-medium small-2 column menu-btn">
+            <div class="hide-for-large small-2 medium-3 column menu-btn">
               <p><span data-toggle="offCanvasRight">menu</span></p>
             </div>
           </div>
@@ -37,11 +37,11 @@
 
         <section class="content">
 
-          <div class="frm-contacto row small-centered small-10">
+          <div class="frm-contacto row small-centered small-10  medium-8">
+            <h2 class="text-center">CONTACTO</h2>
+            <h3 class="title text-center">Si quieres trabajar conmigo escríbeme</h3>
             <form method="POST" action="http://formspree.io/maryootory@gmail.com">
               <div class="row column">
-                <h2 class="text-center">CONTACTO</h2>
-                <h3 class="title text-center">Si quieres trabajar conmigo escríbeme</h3>
                 <div class="inputs-group">
                   <input type="hidden" name="_subject" value="Tienes un mensaje desde tu web." />
                   <input type="hidden" name="_next" value="/html/gracias.html" />
@@ -54,7 +54,7 @@
                   <p class="help-text">Campo obligatorio</p>
                   <textarea name="mensaje" cols="30" rows="7" placeholder="Mensaje" required></textarea>
                   <p class="help-text">Campo obligatorio</p>
-                  <button type="submit" class="float-center button secondary small-7">ENVIAR</button>
+                  <button type="submit" class="float-center button secondary small-7 medium-4">ENVIAR</button>
                 </div>
               </div>
             </form>

@@ -1,6 +1,7 @@
 @include breakpoint(medium) {
   .header .nav-bar {
     padding: 10px 0;
+
     .title {
       margin-top: 10px;
 
@@ -22,6 +23,19 @@
       margin-bottom: 50px;
 
       .title h3 { font-size: 3em; }
+    }
+  }
+
+  .contacto .header {
+    margin-bottom: 60px;
+
+    .nav-bar {
+      .title {
+        h1.title { font-size: 2em; }
+        .cargo { font-size: 1.7em; }
+      }
+
+      .menu-btn { margin-top: 25px; }
     }
   }
 }

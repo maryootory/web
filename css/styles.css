@@ -1858,6 +1858,10 @@ body { font: 100% Muli-Regular; }
   .content .bienvenida { margin-bottom: 70px; }
   .content .bienvenida .title { font-size: 6.625em; }
   .content .programas { padding-bottom: 45px; margin-bottom: 50px; }
-  .content .programas .title h3 { font-size: 3em; } }
+  .content .programas .title h3 { font-size: 3em; }
+  .contacto .header { margin-bottom: 60px; }
+  .contacto .header .nav-bar .title h1.title { font-size: 2em; }
+  .contacto .header .nav-bar .title .cargo { font-size: 1.7em; }
+  .contacto .header .nav-bar .menu-btn { margin-top: 25px; } }
 
 /*# sourceMappingURL=styles.css.map */

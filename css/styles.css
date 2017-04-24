@@ -1764,6 +1764,14 @@ body { font: 100% Muli-Regular; }
 
 .header .nav-bar .menu-btn p span:hover { background: url("../images/menu-btn-hover.svg") no-repeat center/contain; }
 
+.contacto .header .nav-bar .title, .portafolio .header .nav-bar .title { margin-top: 10px; }
+
+.contacto .header .nav-bar .title h1.title, .portafolio .header .nav-bar .title h1.title { font-size: 1.125em; }
+
+.contacto .header .nav-bar .title .cargo, .portafolio .header .nav-bar .title .cargo { font-size: 1em; }
+
+.contacto .header .nav-bar .menu-btn, .portafolio .header .nav-bar .menu-btn { margin-top: 10px; }
+
 .content { margin-bottom: 20px; }
 
 .content .bienvenida { margin-bottom: 20px; }
@@ -1840,15 +1848,13 @@ body { font: 100% Muli-Regular; }
 
 .block-footer .copy p { margin-bottom: 0; font-size: .9em; }
 
-.contacto .header .nav-bar .title { margin-top: 10px; }
-
-.contacto .header .nav-bar .title h1.title { font-size: 1.125em; }
-
-.contacto .header .nav-bar .title .cargo { font-size: 1em; }
-
-.contacto .header .nav-bar .menu-btn { margin-top: 10px; }
-
 .gracias .header .nav-bar { margin-bottom: 0; }
+
+.portafolio .content h2 { font: 2.438em PaytoneOne; color: #0773A3; }
+
+.portafolio .content .portafolio .info h3 { color: #29abe2; }
+
+.portafolio .content .portafolio .info p { font-size: .9em; }
 
 @media print, screen and (min-width: 40em) { .header .nav-bar { padding: 10px 0; }
   .header .nav-bar .title { margin-top: 10px; }

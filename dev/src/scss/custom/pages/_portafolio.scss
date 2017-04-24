@@ -1,0 +1,16 @@
+.portafolio {
+  .content {
+    h2 {
+      font: 2.438em $paytone-one;
+      color: $secondary-color;
+    }
+
+    .portafolio {
+      .info {
+        h3 { color: $blue-color; }
+
+        p { font-size: .9em; }
+      }
+    }
+  }
+}

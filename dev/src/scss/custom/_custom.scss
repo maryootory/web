@@ -3,12 +3,14 @@
 
 @import 'blocks/menu-off-canvas';
 @import 'blocks/header';
+@import 'blocks/header-secciones';
 @import 'blocks/content';
 @import "blocks/block-footer";
 @import 'blocks/footer';
 
 @import 'pages/contacto';
 @import 'pages/gracias';
+@import 'pages/portafolio';
 
 @import "responsive/mobile";
 @import "responsive/tablet";

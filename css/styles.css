@@ -1858,7 +1858,7 @@ body { font: 100% Muli-Regular; }
 
 .portafolio .content .portafolio .info h3 { color: #29abe2; }
 
-.portafolio .content .portafolio .info p { font-size: .9em; line-height: 1.3; }
+.portafolio .content .portafolio .info p { font-size: .9em; line-height: 1.3; color: #666666; }
 
 @media print, screen and (min-width: 40em) { .header .nav-bar { padding: 10px 0; }
   .header .nav-bar .title { margin-top: 10px; }

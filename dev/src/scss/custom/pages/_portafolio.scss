@@ -1,15 +1,22 @@
 .portafolio {
   .content {
     h2 {
-      font: 2.438em $paytone-one;
       color: $secondary-color;
+      font: 2.438em $paytone-one;
     }
 
     .portafolio {
+      padding: 15px 0;
+
+      &:hover { background-color: $light-blue; }
+
       .info {
         h3 { color: $blue-color; }
 
-        p { font-size: .9em; }
+        p {
+          font-size: .9em;
+          line-height: 1.3;
+        }
       }
     }
   }

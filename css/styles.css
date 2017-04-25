@@ -1860,6 +1860,10 @@ body { font: 100% Muli-Regular; }
 
 .portafolio .content .portafolio .info p { font-size: .9em; line-height: 1.3; color: #666666; }
 
+.portafolio .content .ctn-experiencia { background-color: #0773A3; }
+
+.portafolio .content .ctn-experiencia h2 { color: #fefefe; font: 2.438em PaytoneOne; }
+
 @media print, screen and (min-width: 40em) { .header .nav-bar { padding: 10px 0; }
   .header .nav-bar .title { margin-top: 10px; }
   .header .nav-bar .title h1.title { font-size: 2em; }

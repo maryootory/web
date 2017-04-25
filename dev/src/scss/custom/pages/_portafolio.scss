@@ -20,5 +20,14 @@
         }
       }
     }
+
+    .ctn-experiencia {
+      background-color: $secondary-color;
+
+      h2 {
+        color: $white;
+        font: 2.438em $paytone-one;
+      }
+    }
   }
 }
